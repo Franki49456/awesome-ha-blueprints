@@ -1,15 +1,5 @@
 # Blueprint metadata
-blueprint:
-  name: On-Off schedule with state persistence
-  description: A simple on-off schedule, with the addition of state persistence across disruptive events, making sure the target device is always in the expected state.
-  source_url: https://github.com/EPMatt/awesome-ha-blueprints/blob/main/blueprints/automation/on_off_schedule_state_persistence/on_off_schedule_state_persistence.yaml
-  domain: automation
-  input:
-    automation_target:
-      name: Automation target
-      description: The target which the automation will turn on and off based on the provided schedule.
-      selector:
-        target:
+
     on_time:
       name: On Time
       description: Time when the target should be placed in the on state.
